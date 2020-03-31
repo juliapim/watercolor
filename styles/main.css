@@ -8,7 +8,7 @@ header {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
-  background-image: url("/dist/img/watercolor-header.jpeg");
+  background-image: url(../img/watercolor-header.jpeg);
   font-size: 60px; }
 
 .nav {
