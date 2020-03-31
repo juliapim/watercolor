@@ -5,3 +5,12 @@ import '../styles/main.scss';
 
 // \/ All of your javascript should go here \/
 
+document.addEventListener('DOMContentLoaded', function () {
+    const spans = document.querySelectorAll('span');
+
+    function toggleContent() {
+         event.target.nextElementSibling.classList.toggle('active');
+    } for (let i = 0; i < spans.length; i++) {
+        spans[i].addEventListener('click', toggleContent);
+    }
+})
